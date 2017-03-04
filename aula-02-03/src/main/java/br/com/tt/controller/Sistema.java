@@ -1,4 +1,7 @@
-package br.com.tt;
+package br.com.tt.controller;
+
+import br.com.tt.model.Animal;
+import br.com.tt.model.Pessoa;
 
 public class Sistema {
 
