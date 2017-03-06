@@ -1,6 +1,6 @@
 package br.com.tt;
 
-public class TesteIf {
+public class TesteIf_2 {
 	public static void main(String[] args) {
 		
 		Double saldo = 5D;
