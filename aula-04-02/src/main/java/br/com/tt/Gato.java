@@ -12,7 +12,7 @@ public class Gato extends Animal {
 	}
 
 	public Gato() {
-
+		super();
 	}
 
 	public Integer getIdade() {

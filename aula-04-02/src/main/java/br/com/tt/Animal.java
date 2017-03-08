@@ -5,10 +5,13 @@ public class Animal {
 	private Integer id;
 	private String nome;
 	private String dono;
+	
+	public static Integer qtd = 0;
 
 	public Animal(String nome) {
 		setNome(nome);
 		System.out.println("Construindo com o nome");
+		qtd++;
 	}
 
 	public Animal(String dono, String nome) {
@@ -22,7 +25,7 @@ public class Animal {
 	}
 
 	public Animal() {
-
+		qtd++;
 	}
 
 	public Integer getId() {
