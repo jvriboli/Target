@@ -20,5 +20,22 @@ public class String_1 {
 
 		int indexOf = nome.indexOf("i");
 		System.out.println("Posicao do i: " + indexOf);
+		
+		String ultimo = nome.substring(11);
+		System.out.println("Ultimo: "+ultimo);
+		
+		String primeiro = nome.substring(0, 5);
+		System.out.println("Primeiro: "+primeiro);
+		
+		String data = "08/03/2017";
+		String[] split = data.split("/");
+		for (String s : split) {
+			System.out.println(s);
+		}
+		
+		String novaData = data.replace("/", "-");
+		System.out.println(novaData);
+		
+		
 	}
 }
