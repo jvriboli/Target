@@ -26,6 +26,8 @@ public class Sistema {
 					JOptionPane.showMessageDialog(null, e.getMessage());
 				} catch (Exception e) {
 					JOptionPane.showMessageDialog(null, "Falha no sistema");
+				} finally {
+					System.out.println("Passando sempre.");
 				}
 			}
 		} while (!nome.equalsIgnoreCase("sair"));
